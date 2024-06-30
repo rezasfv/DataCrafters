@@ -1,0 +1,18 @@
+#Hall of fame of the winners of the top 5 european leagues
+
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+
+SELECT ?leagueName ?teamName ?season ?points WHERE 
+{
+	?team foaf:name ?teamName;
+		dcsso:hasParticipation ?participation;
+		dcsso:participatesIn ?league.
+			
+	?league foaf:name ?leagueName.
+		
+	?participation dcsso:finalPosition "1"^^xsd:int;
+		dcsso:season ?season;
+		dcsso:points ?points.
+}
+ORDER BY ASC (?leagueName) ASC (?season)

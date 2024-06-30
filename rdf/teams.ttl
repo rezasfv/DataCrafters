@@ -1,0 +1,714 @@
+@prefix dcsso: <http://www.dei.unipd.it/db2/dcsso#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dcsso:team1003 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "King Power Stadium"^^xsd:string ;
+    foaf:name "Leicester City"^^xsd:string .
+
+dcsso:team1005 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Ettore Giardiniero"^^xsd:string ;
+    foaf:name "US Lecce"^^xsd:string .
+
+dcsso:team1010 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Vicarage Road"^^xsd:string ;
+    foaf:name "Watford FC"^^xsd:string .
+
+dcsso:team1025 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Stadio Renato Dall'Ara"^^xsd:string ;
+    foaf:name "Bologna FC 1909"^^xsd:string .
+
+dcsso:team1038 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Luigi Ferraris"^^xsd:string ;
+    foaf:name "UC Sampdoria"^^xsd:string .
+
+dcsso:team1039 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Loftus Road Stadium"^^xsd:string ;
+    foaf:name "Queens Park Rangers"^^xsd:string .
+
+dcsso:team1041 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Groupama Stadium"^^xsd:string ;
+    foaf:name "Olympique Lyon"^^xsd:string .
+
+dcsso:team1049 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Mestalla"^^xsd:string ;
+    foaf:name "Valencia CF"^^xsd:string .
+
+dcsso:team105 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Merck-Stadion am Bollenfalltor"^^xsd:string ;
+    foaf:name "SV Darmstadt 98"^^xsd:string .
+
+dcsso:team1050 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "La Ceramica"^^xsd:string ;
+    foaf:name "Villarreal CF"^^xsd:string .
+
+dcsso:team1082 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Decathlon Arena-Stade Pierre-Mauroy"^^xsd:string ;
+    foaf:name "LOSC Lille"^^xsd:string .
+
+dcsso:team1084 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "La Rosaleda"^^xsd:string ;
+    foaf:name "Malaga CF"^^xsd:string .
+
+dcsso:team1095 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade de l'Aube"^^xsd:string ;
+    foaf:name "ESTAC Troyes"^^xsd:string .
+
+dcsso:team11 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Emirates Stadium"^^xsd:string ;
+    foaf:name "Arsenal FC"^^xsd:string .
+
+dcsso:team1108 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Mendizorroza"^^xsd:string ;
+    foaf:name "Deportivo Alaves"^^xsd:string .
+
+dcsso:team1110 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "John Smith's Stadium"^^xsd:string ;
+    foaf:name "Huddersfield Town"^^xsd:string .
+
+dcsso:team1123 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Carrow Road"^^xsd:string ;
+    foaf:name "Norwich City"^^xsd:string .
+
+dcsso:team1132 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Turf Moor"^^xsd:string ;
+    foaf:name "Burnley FC"^^xsd:string .
+
+dcsso:team1158 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade du Moustoir"^^xsd:string ;
+    foaf:name "FC Lorient"^^xsd:string .
+
+dcsso:team1159 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Marcel-Picot"^^xsd:string ;
+    foaf:name "AS Nancy-Lorraine"^^xsd:string .
+
+dcsso:team1160 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade des Antonins"^^xsd:string ;
+    foaf:name "Nimes Olympique"^^xsd:string .
+
+dcsso:team1162 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Michel-d'Ornano"^^xsd:string ;
+    foaf:name "SM Caen"^^xsd:string .
+
+dcsso:team12 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Olimpico di Roma"^^xsd:string ;
+    foaf:name "AS Roma"^^xsd:string .
+
+dcsso:team12321 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Montilivi"^^xsd:string ;
+    foaf:name "Girona FC"^^xsd:string .
+
+dcsso:team1237 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "AMEX Stadium"^^xsd:string ;
+    foaf:name "Brighton & Hove Albion"^^xsd:string .
+
+dcsso:team1244 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Butarque"^^xsd:string ;
+    foaf:name "CD Leganes"^^xsd:string .
+
+dcsso:team127 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Home Deluxe Arena"^^xsd:string ;
+    foaf:name "SC Paderborn 07"^^xsd:string .
+
+dcsso:team13 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Civitas Metropolitano"^^xsd:string ;
+    foaf:name "Atletico de Madrid"^^xsd:string .
+
+dcsso:team130 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Ennio Tardini"^^xsd:string ;
+    foaf:name "Parma Calcio 1913"^^xsd:string .
+
+dcsso:team131 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Olimpic Lluis Companys"^^xsd:string ;
+    foaf:name "FC Barcelona"^^xsd:string .
+
+dcsso:team1390 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Unipol Domus"^^xsd:string ;
+    foaf:name "Cagliari Calcio"^^xsd:string .
+
+dcsso:team1416 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Credit Agricole la Licorne"^^xsd:string ;
+    foaf:name "Amiens SC"^^xsd:string .
+
+dcsso:team14171 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Camille Fournier"^^xsd:string ;
+    foaf:name "Thonon Evian Grand Geneve FC"^^xsd:string .
+
+dcsso:team1420 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Raymond Kopa"^^xsd:string ;
+    foaf:name "Angers SCO"^^xsd:string .
+
+dcsso:team1421 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Auguste-Delaune"^^xsd:string ;
+    foaf:name "Stade Reims"^^xsd:string .
+
+dcsso:team1429 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Orogel Stadium - Dino Manuzzi"^^xsd:string ;
+    foaf:name "Cesena FC"^^xsd:string .
+
+dcsso:team148 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Tottenham Hotspur Stadium"^^xsd:string ;
+    foaf:name "Tottenham Hotspur"^^xsd:string .
+
+dcsso:team15 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "BayArena"^^xsd:string ;
+    foaf:name "Bayer 04 Leverkusen"^^xsd:string .
+
+dcsso:team150 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Benito Villamarin"^^xsd:string ;
+    foaf:name "Real Betis Balompie"^^xsd:string .
+
+dcsso:team1531 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Manuel Martinez Valero"^^xsd:string ;
+    foaf:name "Elche CF"^^xsd:string .
+
+dcsso:team1533 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Ipurua"^^xsd:string ;
+    foaf:name "SD Eibar"^^xsd:string .
+
+dcsso:team16 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "SIGNAL IDUNA PARK"^^xsd:string ;
+    foaf:name "Borussia Dortmund"^^xsd:string .
+
+dcsso:team162 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Louis-II"^^xsd:string ;
+    foaf:name "AS Monaco"^^xsd:string .
+
+dcsso:team167 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "WWK ARENA"^^xsd:string ;
+    foaf:name "FC Augsburg"^^xsd:string .
+
+dcsso:team16795 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Nuevo Los Carmenes"^^xsd:string ;
+    foaf:name "Granada CF"^^xsd:string .
+
+dcsso:team18 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Stadion im Borussia-Park"^^xsd:string ;
+    foaf:name "Borussia Monchengladbach"^^xsd:string .
+
+dcsso:team180 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "St Mary's Stadium"^^xsd:string ;
+    foaf:name "Southampton FC"^^xsd:string .
+
+dcsso:team19 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Mario Rigamonti"^^xsd:string ;
+    foaf:name "Brescia Calcio"^^xsd:string .
+
+dcsso:team2288 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Swansea.com Stadium"^^xsd:string ;
+    foaf:name "Swansea City"^^xsd:string .
+
+dcsso:team237 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Mallorca Son Moix"^^xsd:string ;
+    foaf:name "RCD Mallorca"^^xsd:string .
+
+dcsso:team23826 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Red Bull Arena"^^xsd:string ;
+    foaf:name "RB Leipzig"^^xsd:string .
+
+dcsso:team24 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Deutsche Bank Park"^^xsd:string ;
+    foaf:name "Eintracht Frankfurt"^^xsd:string .
+
+dcsso:team244 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Orange Velodrome"^^xsd:string ;
+    foaf:name "Olympique Marseille"^^xsd:string .
+
+dcsso:team2448 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "El Molinon - Enrique Castro Quini"^^xsd:string ;
+    foaf:name "Sporting Gijon"^^xsd:string .
+
+dcsso:team252 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Luigi Ferraris"^^xsd:string ;
+    foaf:name "Genoa CFC"^^xsd:string .
+
+dcsso:team27 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Allianz Arena"^^xsd:string ;
+    foaf:name "Bayern Munich"^^xsd:string .
+
+dcsso:team2722 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Paolo Mazza"^^xsd:string ;
+    foaf:name "SPAL"^^xsd:string .
+
+dcsso:team273 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Roazhon Park"^^xsd:string ;
+    foaf:name "Stade Rennais FC"^^xsd:string .
+
+dcsso:team276 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Marcantonio Bentegodi"^^xsd:string ;
+    foaf:name "Hellas Verona"^^xsd:string .
+
+dcsso:team281 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Etihad Stadium"^^xsd:string ;
+    foaf:name "Manchester City"^^xsd:string .
+
+dcsso:team289 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Stadium of Light"^^xsd:string ;
+    foaf:name "Sunderland AFC"^^xsd:string .
+
+dcsso:team29 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Goodison Park"^^xsd:string ;
+    foaf:name "Everton FC"^^xsd:string .
+
+dcsso:team2921 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Adriatico"^^xsd:string ;
+    foaf:name "Delfino Pescara 1936"^^xsd:string .
+
+dcsso:team2969 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Gaston-Gerard"^^xsd:string ;
+    foaf:name "Dijon FCO"^^xsd:string .
+
+dcsso:team3 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "RheinEnergieSTADION"^^xsd:string ;
+    foaf:name "1.FC Koln"^^xsd:string .
+
+dcsso:team3008 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "MKM Stadium"^^xsd:string ;
+    foaf:name "Hull City"^^xsd:string .
+
+dcsso:team31 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Anfield"^^xsd:string ;
+    foaf:name "Liverpool FC"^^xsd:string .
+
+dcsso:team33 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Veltins-Arena"^^xsd:string ;
+    foaf:name "FC Schalke 04"^^xsd:string .
+
+dcsso:team3302 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Power Horse Stadium"^^xsd:string ;
+    foaf:name "UD Almeria"^^xsd:string .
+
+dcsso:team331 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "El Sadar"^^xsd:string ;
+    foaf:name "CA Osasuna"^^xsd:string .
+
+dcsso:team3368 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Ciutat de Valencia"^^xsd:string ;
+    foaf:name "Levante UD"^^xsd:string .
+
+dcsso:team347 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Saint-Symphorien"^^xsd:string ;
+    foaf:name "FC Metz"^^xsd:string .
+
+dcsso:team350 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Bramall Lane"^^xsd:string ;
+    foaf:name "Sheffield United"^^xsd:string .
+
+dcsso:team3558 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Ange-Casanova"^^xsd:string ;
+    foaf:name "GFC Ajaccio"^^xsd:string .
+
+dcsso:team366 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Nuevo Jose Zorrilla"^^xsd:string ;
+    foaf:name "Real Valladolid CF"^^xsd:string .
+
+dcsso:team367 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Campo de Futbol de Vallecas"^^xsd:string ;
+    foaf:name "Rayo Vallecano"^^xsd:string .
+
+dcsso:team368 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Ramon Sanchez-Pizjuan"^^xsd:string ;
+    foaf:name "Sevilla FC"^^xsd:string .
+
+dcsso:team3709 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Coliseum"^^xsd:string ;
+    foaf:name "Getafe CF"^^xsd:string .
+
+dcsso:team379 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "London Stadium"^^xsd:string ;
+    foaf:name "West Ham United"^^xsd:string .
+
+dcsso:team38 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "MERKUR SPIEL-ARENA"^^xsd:string ;
+    foaf:name "Fortuna Dusseldorf"^^xsd:string .
+
+dcsso:team39 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Mewa Arena"^^xsd:string ;
+    foaf:name "1.FSV Mainz 05"^^xsd:string .
+
+dcsso:team3911 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Francis-Le Ble"^^xsd:string ;
+    foaf:name "Stade Brestois 29"^^xsd:string .
+
+dcsso:team398 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Olimpico di Roma"^^xsd:string ;
+    foaf:name "SS Lazio"^^xsd:string .
+
+dcsso:team4 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Max-Morlock-Stadion"^^xsd:string ;
+    foaf:name "1.FC Nuremberg"^^xsd:string .
+
+dcsso:team40 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Matmut Atlantique"^^xsd:string ;
+    foaf:name "FC Girondins Bordeaux"^^xsd:string .
+
+dcsso:team405 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Villa Park"^^xsd:string ;
+    foaf:name "Aston Villa"^^xsd:string .
+
+dcsso:team4083 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Ezio Scida"^^xsd:string ;
+    foaf:name "FC Crotone"^^xsd:string .
+
+dcsso:team41 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Volksparkstadion"^^xsd:string ;
+    foaf:name "Hamburger SV"^^xsd:string .
+
+dcsso:team410 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Bluenergy Stadium"^^xsd:string ;
+    foaf:name "Udinese Calcio"^^xsd:string .
+
+dcsso:team4102 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Sandro Cabassi"^^xsd:string ;
+    foaf:name "AC Carpi"^^xsd:string .
+
+dcsso:team415 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stadium Municipal"^^xsd:string ;
+    foaf:name "FC Toulouse"^^xsd:string .
+
+dcsso:team416 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Stadio Olimpico Grande Torino"^^xsd:string ;
+    foaf:name "Torino FC"^^xsd:string .
+
+dcsso:team417 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Allianz Riviera"^^xsd:string ;
+    foaf:name "OGC Nice"^^xsd:string .
+
+dcsso:team4171 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Ciro Vigorito"^^xsd:string ;
+    foaf:name "Benevento Calcio"^^xsd:string .
+
+dcsso:team418 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Santiago Bernabeu"^^xsd:string ;
+    foaf:name "Real Madrid"^^xsd:string .
+
+dcsso:team42 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Heinz-von-Heiden-Arena"^^xsd:string ;
+    foaf:name "Hannover 96"^^xsd:string .
+
+dcsso:team430 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Artemio Franchi"^^xsd:string ;
+    foaf:name "ACF Fiorentina"^^xsd:string .
+
+dcsso:team44 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Olympiastadion Berlin"^^xsd:string ;
+    foaf:name "Hertha BSC"^^xsd:string .
+
+dcsso:team458 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Comunale Renzo Barbera \"La Favorita\""^^xsd:string ;
+    foaf:name "Palermo FC"^^xsd:string .
+
+dcsso:team46 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Giuseppe Meazza"^^xsd:string ;
+    foaf:name "Inter Milan"^^xsd:string .
+
+dcsso:team472 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Estadio de Gran Canaria"^^xsd:string ;
+    foaf:name "UD Las Palmas"^^xsd:string .
+
+dcsso:team4795 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Audi Sportpark"^^xsd:string ;
+    foaf:name "FC Ingolstadt 04"^^xsd:string .
+
+dcsso:team5 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Giuseppe Meazza"^^xsd:string ;
+    foaf:name "AC Milan"^^xsd:string .
+
+dcsso:team506 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Allianz Stadium"^^xsd:string ;
+    foaf:name "Juventus FC"^^xsd:string .
+
+dcsso:team512 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "bet365 Stadium"^^xsd:string ;
+    foaf:name "Stoke City"^^xsd:string .
+
+dcsso:team533 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "PreZero Arena"^^xsd:string ;
+    foaf:name "TSG 1899 Hoffenheim"^^xsd:string .
+
+dcsso:team5358 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "El Alcoraz"^^xsd:string ;
+    foaf:name "SD Huesca"^^xsd:string .
+
+dcsso:team543 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Molineux Stadium"^^xsd:string ;
+    foaf:name "Wolverhampton Wanderers"^^xsd:string .
+
+dcsso:team583 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Parc des Princes"^^xsd:string ;
+    foaf:name "Paris Saint-Germain"^^xsd:string .
+
+dcsso:team595 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Armand-Cesari"^^xsd:string ;
+    foaf:name "SC Bastia"^^xsd:string .
+
+dcsso:team60 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Europa-Park Stadion"^^xsd:string ;
+    foaf:name "SC Freiburg"^^xsd:string .
+
+dcsso:team603 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Cardiff City Stadium"^^xsd:string ;
+    foaf:name "Cardiff City"^^xsd:string .
+
+dcsso:team618 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Geoffroy-Guichard"^^xsd:string ;
+    foaf:name "AS Saint-Etienne"^^xsd:string .
+
+dcsso:team6195 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Stadio Diego Armando Maradona"^^xsd:string ;
+    foaf:name "SSC Napoli"^^xsd:string .
+
+dcsso:team621 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "San Mames"^^xsd:string ;
+    foaf:name "Athletic Bilbao"^^xsd:string .
+
+dcsso:team631 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Stamford Bridge"^^xsd:string ;
+    foaf:name "Chelsea FC"^^xsd:string .
+
+dcsso:team641 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Riverside Stadium"^^xsd:string ;
+    foaf:name "Middlesbrough FC"^^xsd:string .
+
+dcsso:team6574 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Mapei Stadium - Citta del Tricolore"^^xsd:string ;
+    foaf:name "US Sassuolo"^^xsd:string .
+
+dcsso:team667 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade de la Meinau"^^xsd:string ;
+    foaf:name "RC Strasbourg Alsace"^^xsd:string .
+
+dcsso:team681 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Reale Arena"^^xsd:string ;
+    foaf:name "Real Sociedad"^^xsd:string .
+
+dcsso:team714 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "RCDE Stadium"^^xsd:string ;
+    foaf:name "RCD Espanyol Barcelona"^^xsd:string .
+
+dcsso:team749 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Carlo Castellani"^^xsd:string ;
+    foaf:name "FC Empoli"^^xsd:string .
+
+dcsso:team762 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "St James' Park"^^xsd:string ;
+    foaf:name "Newcastle United"^^xsd:string .
+
+dcsso:team79 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "MHPArena Stuttgart"^^xsd:string ;
+    foaf:name "VfB Stuttgart"^^xsd:string .
+
+dcsso:team800 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Gewiss Stadium"^^xsd:string ;
+    foaf:name "Atalanta BC"^^xsd:string .
+
+dcsso:team82 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Volkswagen Arena"^^xsd:string ;
+    foaf:name "VfL Wolfsburg"^^xsd:string .
+
+dcsso:team826 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade Bollaert-Delelis"^^xsd:string ;
+    foaf:name "RC Lens"^^xsd:string .
+
+dcsso:team855 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade du Roudourou"^^xsd:string ;
+    foaf:name "EA Guingamp"^^xsd:string .
+
+dcsso:team86 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Wohninvest-Weserstadion"^^xsd:string ;
+    foaf:name "SV Werder Bremen"^^xsd:string .
+
+dcsso:team862 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Marcantonio Bentegodi"^^xsd:string ;
+    foaf:name "Chievo Verona"^^xsd:string .
+
+dcsso:team873 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Selhurst Park"^^xsd:string ;
+    foaf:name "Crystal Palace"^^xsd:string .
+
+dcsso:team89 a dcsso:Team ;
+    dcsso:participatesIn dcsso:L1 ;
+    dcsso:stadium "Stadion An der Alten Forsterei"^^xsd:string ;
+    foaf:name "1.FC Union Berlin"^^xsd:string .
+
+dcsso:team897 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Abanca Riazor"^^xsd:string ;
+    foaf:name "Deportivo de La Coruna"^^xsd:string .
+
+dcsso:team8970 a dcsso:Team ;
+    dcsso:participatesIn dcsso:IT1 ;
+    dcsso:stadium "Benito Stirpe"^^xsd:string ;
+    foaf:name "Frosinone Calcio"^^xsd:string .
+
+dcsso:team931 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Craven Cottage"^^xsd:string ;
+    foaf:name "Fulham FC"^^xsd:string .
+
+dcsso:team940 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Abanca Balaidos"^^xsd:string ;
+    foaf:name "Celta de Vigo"^^xsd:string .
+
+dcsso:team969 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade de la Mosson"^^xsd:string ;
+    foaf:name "Montpellier HSC"^^xsd:string .
+
+dcsso:team984 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "The Hawthorns"^^xsd:string ;
+    foaf:name "West Bromwich Albion"^^xsd:string .
+
+dcsso:team985 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Old Trafford"^^xsd:string ;
+    foaf:name "Manchester United"^^xsd:string .
+
+dcsso:team989 a dcsso:Team ;
+    dcsso:participatesIn dcsso:GB1 ;
+    dcsso:stadium "Vitality Stadium"^^xsd:string ;
+    foaf:name "AFC Bournemouth"^^xsd:string .
+
+dcsso:team993 a dcsso:Team ;
+    dcsso:participatesIn dcsso:ES1 ;
+    dcsso:stadium "Nuevo Arcangel"^^xsd:string ;
+    foaf:name "Cordoba CF"^^xsd:string .
+
+dcsso:team995 a dcsso:Team ;
+    dcsso:participatesIn dcsso:FR1 ;
+    dcsso:stadium "Stade de la Beaujoire"^^xsd:string ;
+    foaf:name "FC Nantes"^^xsd:string .
+

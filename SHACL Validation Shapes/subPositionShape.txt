@@ -1,0 +1,17 @@
+#Shape for verifying that every footballer has at least one subposition (some very young players don't have a specified subposition)
+
+prefix ex: <http://example.com/ns#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix sh: <http://www.w3.org/ns/shacl#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix dcsso: <http://www.dei.unipd.it/db2/dcsso#> 
+prefix owl: <http://www.w3.org/2002/07/owl#>
+
+ex:subPositionShape
+	a sh:NodeShape ;
+	sh:targetClass dcsso:Footballer ;
+	sh:property [
+		sh:path dcsso:subPosition ;
+		sh:maxCount 1 ;
+	].

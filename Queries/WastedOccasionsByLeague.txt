@@ -1,0 +1,38 @@
+#Top 5 seasons with the most avg "wasted occasions" (xG - goals per game)
+
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?leagueName ?season (AVG(?wastedGoalsPerGame) AS ?avgWastedGoalsPerGame) WHERE{
+    ?league a dcsso:League;
+            foaf:name ?leagueName.
+    ?team dcsso:participatesIn ?league;
+          dcsso:hasParticipation ?part.
+    ?part dcsso:season ?season;
+          dcsso:goals ?goals;
+          dcsso:xG ?xG;
+    	  dcsso:games ?games.
+    BIND((?xG - ?goals)/?games AS ?wastedGoalsPerGame).
+}GROUP BY ?leagueName ?season
+ORDER BY DESC(?avgWastedGoalsPerGame)
+LIMIT 5
+
+
+#Number of seasons with positive avg of "wasted occasions", per league
+
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?leagueName (COUNT(*) AS ?seasons) WHERE{
+    SELECT ?leagueName ?season (AVG(?wastedGoalsPerGame) AS ?avgWastedGoalsPerGame) WHERE{
+        ?league a dcsso:League;
+                foaf:name ?leagueName.
+        ?team dcsso:participatesIn ?league;
+              dcsso:hasParticipation ?part.
+        ?part dcsso:season ?season;
+              dcsso:goals ?goals;
+              dcsso:xG ?xG;
+              dcsso:games ?games.
+        BIND((?xG - ?goals)/?games AS ?wastedGoalsPerGame).
+    }GROUP BY ?leagueName ?season
+    HAVING(?avgWastedGoalsPerGame > 0)
+}GROUP BY ?leagueName
+ORDER BY DESC(?seasons)

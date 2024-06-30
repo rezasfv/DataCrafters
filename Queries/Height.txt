@@ -1,0 +1,47 @@
+#Average height per subposition.
+
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+select ?subPosition (AVG(?height) AS ?avgHeight) where { 
+	?player a dcsso:Footballer;
+			dcsso:height ?height;
+			dcsso:subPosition ?subPosition.
+} GROUP BY ?subPosition
+ORDER BY DESC(?avgHeight)
+
+
+#Is it true that centre forwards above 1.90m score on avg more than the others?
+
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+ASK WHERE{
+    {
+         SELECT (SUM(?goals) AS ?tallGoals) (COUNT(distinct ?player) AS ?countTall) WHERE{
+            ?player a dcsso:Footballer;
+                    dcsso:hasMembership ?memb;
+                    dcsso:height ?height;
+                    dcsso:subPosition dcsso:CentreForward.
+            ?memb dcsso:goals ?goals.
+            FILTER(!EXISTS{
+                    ?memb a dcsso:SeasonalAggrMembership;
+                          dcsso:season ?season.
+                    ?memb2 a dcsso:SeasonalMembership;
+                           dcsso:season ?season.
+                } && ?height >= 190)
+        }
+    }
+    {
+         SELECT (SUM(?goals) AS ?shortGoals) (COUNT(distinct ?player) AS ?countShort) WHERE{
+            ?player a dcsso:Footballer;
+                    dcsso:hasMembership ?memb;
+                    dcsso:height ?height;
+                    dcsso:subPosition dcsso:CentreForward.
+            ?memb dcsso:goals ?goals.
+            FILTER(!EXISTS{
+                    ?memb a dcsso:SeasonalAggrMembership;
+                          dcsso:season ?season.
+                    ?memb2 a dcsso:SeasonalMembership;
+                           dcsso:season ?season.
+                } && ?height < 190)
+        }
+    }
+    FILTER(?tallGoals/?countTall > ?shortGoals/?countShort)
+}

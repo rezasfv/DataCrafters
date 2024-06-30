@@ -1,0 +1,29 @@
+#Golden foot ladder in 2018
+
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?name (GROUP_CONCAT(?tn; separator=", ") as ?seasTn) ?games ?goals WHERE 
+{ 
+	?p foaf:familyName ?name;
+       dcsso:hasMembership ?m.
+    
+	?m dcsso:season "2018"^^xsd:int;
+       dcsso:forTeam/foaf:name ?tn;
+       dcsso:games ?games;
+       dcsso:goals ?goals.
+    
+    FILTER(!EXISTS
+	{
+		?m a dcsso:SeasonalMembership.
+        
+		?p dcsso:hasMembership ?m2.
+         
+		?m2 a dcsso:SeasonalAggrMembership;
+			dcsso:season "2018"^^xsd:int.
+    })  
+} 
+GROUP BY ?goals ?games ?name
+ORDER BY DESC (?goals) ASC (?games)
+LIMIT 20

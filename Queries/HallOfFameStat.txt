@@ -1,0 +1,29 @@
+#Hall of fame of the winners of the top 5 european leagues based on the xPoints
+
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+
+SELECT ?tn ?maxxP ?s ?ln ?realPoints ?realPosition WHERE
+{
+	?t foaf:name ?tn;
+		dcsso:participatesIn/foaf:name ?ln;
+		dcsso:hasParticipation ?p.
+			
+	?p dcsso:season ?s;
+		dcsso:xPoints ?xP;
+		dcsso:points ?realPoints;
+		dcsso:finalPosition ?realPosition.
+	{
+		SELECT ?lnInt (MAX(?xPInt) as ?maxxP) ?sInt WHERE 
+		{ 
+			?t dcsso:participatesIn/foaf:name ?lnInt;
+				dcsso:hasParticipation ?p.
+        
+			?p dcsso:season ?sInt;
+				dcsso:xPoints ?xPInt.
+		}
+		GROUP BY ?sInt ?lnInt
+	}
+	FILTER(?xP = ?maxxP && ?s = ?sInt && ?ln = ?lnInt)
+}
+ORDER BY ASC (?ln) ASC (?sInt)

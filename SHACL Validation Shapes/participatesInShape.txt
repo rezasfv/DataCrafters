@@ -1,0 +1,18 @@
+#Shape for verifying that every team partecipates in exactly one league in the six seasons
+
+prefix ex: <http://example.com/ns#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix sh: <http://www.w3.org/ns/shacl#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix dcsso: <http://www.dei.unipd.it/db2/dcsso#> 
+prefix owl: <http://www.w3.org/2002/07/owl#>
+
+ex:participatesInShape
+	a sh:NodeShape ;
+	sh:targetClass dcsso:Team ;
+	sh:property [
+		sh:path dcsso:participatesIn ;
+		sh:maxCount 1 ;
+		sh:minCount 1 ;
+	].

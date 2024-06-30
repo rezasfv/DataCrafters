@@ -1,0 +1,780 @@
+@prefix dcsso: <http://www.dei.unipd.it/db2/dcsso#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dcsso:AD a dcsso:Country ;
+    foaf:name "Andorra"^^xsd:string .
+
+dcsso:AE a dcsso:Country ;
+    foaf:name "United Arab Emirates"^^xsd:string .
+
+dcsso:AF a dcsso:Country ;
+    foaf:name "Afghanistan"^^xsd:string .
+
+dcsso:AG a dcsso:Country ;
+    foaf:name "Antigua and Barbuda"^^xsd:string .
+
+dcsso:AI a dcsso:Country ;
+    foaf:name "Anguilla"^^xsd:string .
+
+dcsso:AL a dcsso:Country ;
+    foaf:name "Albania"^^xsd:string .
+
+dcsso:AM a dcsso:Country ;
+    foaf:name "Armenia"^^xsd:string .
+
+dcsso:AN a dcsso:Country ;
+    foaf:name "Netherlands Antilles"^^xsd:string .
+
+dcsso:AO a dcsso:Country ;
+    foaf:name "Angola"^^xsd:string .
+
+dcsso:AQ a dcsso:Country ;
+    foaf:name "Antarctica"^^xsd:string .
+
+dcsso:AR a dcsso:Country ;
+    foaf:name "Argentina"^^xsd:string .
+
+dcsso:AS a dcsso:Country ;
+    foaf:name "American Samoa"^^xsd:string .
+
+dcsso:AT a dcsso:Country ;
+    foaf:name "Austria"^^xsd:string .
+
+dcsso:AU a dcsso:Country ;
+    foaf:name "Australia"^^xsd:string .
+
+dcsso:AW a dcsso:Country ;
+    foaf:name "Aruba"^^xsd:string .
+
+dcsso:AX a dcsso:Country ;
+    foaf:name "Aland Islands"^^xsd:string .
+
+dcsso:AZ a dcsso:Country ;
+    foaf:name "Azerbaijan"^^xsd:string .
+
+dcsso:BA a dcsso:Country ;
+    foaf:name "Bosnia-Herzegovina"^^xsd:string .
+
+dcsso:BB a dcsso:Country ;
+    foaf:name "Barbados"^^xsd:string .
+
+dcsso:BD a dcsso:Country ;
+    foaf:name "Bangladesh"^^xsd:string .
+
+dcsso:BE a dcsso:Country ;
+    foaf:name "Belgium"^^xsd:string .
+
+dcsso:BF a dcsso:Country ;
+    foaf:name "Burkina Faso"^^xsd:string .
+
+dcsso:BG a dcsso:Country ;
+    foaf:name "Bulgaria"^^xsd:string .
+
+dcsso:BH a dcsso:Country ;
+    foaf:name "Bahrain"^^xsd:string .
+
+dcsso:BI a dcsso:Country ;
+    foaf:name "Burundi"^^xsd:string .
+
+dcsso:BJ a dcsso:Country ;
+    foaf:name "Benin"^^xsd:string .
+
+dcsso:BL a dcsso:Country ;
+    foaf:name "Saint Barthelemy"^^xsd:string .
+
+dcsso:BM a dcsso:Country ;
+    foaf:name "Bermuda"^^xsd:string .
+
+dcsso:BN a dcsso:Country ;
+    foaf:name "Brunei Darussalam"^^xsd:string .
+
+dcsso:BO a dcsso:Country ;
+    foaf:name "Bolivia"^^xsd:string .
+
+dcsso:BR a dcsso:Country ;
+    foaf:name "Brazil"^^xsd:string .
+
+dcsso:BS a dcsso:Country ;
+    foaf:name "Bahamas"^^xsd:string .
+
+dcsso:BT a dcsso:Country ;
+    foaf:name "Bhutan"^^xsd:string .
+
+dcsso:BV a dcsso:Country ;
+    foaf:name "Bouvet Island"^^xsd:string .
+
+dcsso:BW a dcsso:Country ;
+    foaf:name "Botswana"^^xsd:string .
+
+dcsso:BY a dcsso:Country ;
+    foaf:name "Belarus"^^xsd:string .
+
+dcsso:BZ a dcsso:Country ;
+    foaf:name "Belize"^^xsd:string .
+
+dcsso:CA a dcsso:Country ;
+    foaf:name "Canada"^^xsd:string .
+
+dcsso:CC a dcsso:Country ;
+    foaf:name "Cocos (Keeling) Islands"^^xsd:string .
+
+dcsso:CD a dcsso:Country ;
+    foaf:name "DR Congo"^^xsd:string .
+
+dcsso:CF a dcsso:Country ;
+    foaf:name "Central African Republic"^^xsd:string .
+
+dcsso:CG a dcsso:Country ;
+    foaf:name "Congo"^^xsd:string .
+
+dcsso:CH a dcsso:Country ;
+    foaf:name "Switzerland"^^xsd:string .
+
+dcsso:CI a dcsso:Country ;
+    foaf:name "Cote d'Ivoire"^^xsd:string .
+
+dcsso:CK a dcsso:Country ;
+    foaf:name "Cook Islands"^^xsd:string .
+
+dcsso:CL a dcsso:Country ;
+    foaf:name "Chile"^^xsd:string .
+
+dcsso:CM a dcsso:Country ;
+    foaf:name "Cameroon"^^xsd:string .
+
+dcsso:CN a dcsso:Country ;
+    foaf:name "China"^^xsd:string .
+
+dcsso:CO a dcsso:Country ;
+    foaf:name "Colombia"^^xsd:string .
+
+dcsso:CR a dcsso:Country ;
+    foaf:name "Costa Rica"^^xsd:string .
+
+dcsso:CU a dcsso:Country ;
+    foaf:name "Cuba"^^xsd:string .
+
+dcsso:CV a dcsso:Country ;
+    foaf:name "Cape Verde"^^xsd:string .
+
+dcsso:CW a dcsso:Country ;
+    foaf:name "Curacao"^^xsd:string .
+
+dcsso:CX a dcsso:Country ;
+    foaf:name "Christmas Island"^^xsd:string .
+
+dcsso:CY a dcsso:Country ;
+    foaf:name "Cyprus"^^xsd:string .
+
+dcsso:CZ a dcsso:Country ;
+    foaf:name "Czech Republic"^^xsd:string .
+
+dcsso:DJ a dcsso:Country ;
+    foaf:name "Djibouti"^^xsd:string .
+
+dcsso:DK a dcsso:Country ;
+    foaf:name "Denmark"^^xsd:string .
+
+dcsso:DM a dcsso:Country ;
+    foaf:name "Dominica"^^xsd:string .
+
+dcsso:DO a dcsso:Country ;
+    foaf:name "Dominican Republic"^^xsd:string .
+
+dcsso:DZ a dcsso:Country ;
+    foaf:name "Algeria"^^xsd:string .
+
+dcsso:EC a dcsso:Country ;
+    foaf:name "Ecuador"^^xsd:string .
+
+dcsso:EE a dcsso:Country ;
+    foaf:name "Estonia"^^xsd:string .
+
+dcsso:EG a dcsso:Country ;
+    foaf:name "Egypt"^^xsd:string .
+
+dcsso:EH a dcsso:Country ;
+    foaf:name "Western Sahara"^^xsd:string .
+
+dcsso:ER a dcsso:Country ;
+    foaf:name "Eritrea"^^xsd:string .
+
+dcsso:ES1 a dcsso:League ;
+    dcsso:hasCountry dcsso:ES ;
+    foaf:name "LaLiga"^^xsd:string .
+
+dcsso:ET a dcsso:Country ;
+    foaf:name "Ethiopia"^^xsd:string .
+
+dcsso:FI a dcsso:Country ;
+    foaf:name "Finland"^^xsd:string .
+
+dcsso:FJ a dcsso:Country ;
+    foaf:name "Fiji"^^xsd:string .
+
+dcsso:FK a dcsso:Country ;
+    foaf:name "Falkland Islands (Malvinas)"^^xsd:string .
+
+dcsso:FM a dcsso:Country ;
+    foaf:name "Micronesia, Federated States of"^^xsd:string .
+
+dcsso:FO a dcsso:Country ;
+    foaf:name "Faroe Islands"^^xsd:string .
+
+dcsso:FR1 a dcsso:League ;
+    dcsso:hasCountry dcsso:FR ;
+    foaf:name "Ligue 1"^^xsd:string .
+
+dcsso:GA a dcsso:Country ;
+    foaf:name "Gabon"^^xsd:string .
+
+dcsso:GB-ENG a dcsso:Country ;
+    foaf:name "England"^^xsd:string .
+
+dcsso:GB-NIR a dcsso:Country ;
+    foaf:name "Northern Ireland"^^xsd:string .
+
+dcsso:GB-SCT a dcsso:Country ;
+    foaf:name "Scotland"^^xsd:string .
+
+dcsso:GB-WLS a dcsso:Country ;
+    foaf:name "Wales"^^xsd:string .
+
+dcsso:GB1 a dcsso:League ;
+    dcsso:hasCountry dcsso:GB ;
+    foaf:name "Premier League"^^xsd:string .
+
+dcsso:GD a dcsso:Country ;
+    foaf:name "Grenada"^^xsd:string .
+
+dcsso:GE a dcsso:Country ;
+    foaf:name "Georgia"^^xsd:string .
+
+dcsso:GF a dcsso:Country ;
+    foaf:name "French Guiana"^^xsd:string .
+
+dcsso:GG a dcsso:Country ;
+    foaf:name "Guernsey"^^xsd:string .
+
+dcsso:GH a dcsso:Country ;
+    foaf:name "Ghana"^^xsd:string .
+
+dcsso:GI a dcsso:Country ;
+    foaf:name "Gibraltar"^^xsd:string .
+
+dcsso:GL a dcsso:Country ;
+    foaf:name "Greenland"^^xsd:string .
+
+dcsso:GM a dcsso:Country ;
+    foaf:name "Gambia"^^xsd:string .
+
+dcsso:GN a dcsso:Country ;
+    foaf:name "Guinea"^^xsd:string .
+
+dcsso:GP a dcsso:Country ;
+    foaf:name "Guadeloupe"^^xsd:string .
+
+dcsso:GQ a dcsso:Country ;
+    foaf:name "Equatorial Guinea"^^xsd:string .
+
+dcsso:GR a dcsso:Country ;
+    foaf:name "Greece"^^xsd:string .
+
+dcsso:GS a dcsso:Country ;
+    foaf:name "South Georgia and the South Sandwich Islands"^^xsd:string .
+
+dcsso:GT a dcsso:Country ;
+    foaf:name "Guatemala"^^xsd:string .
+
+dcsso:GU a dcsso:Country ;
+    foaf:name "Guam"^^xsd:string .
+
+dcsso:GW a dcsso:Country ;
+    foaf:name "Guinea-Bissau"^^xsd:string .
+
+dcsso:GY a dcsso:Country ;
+    foaf:name "Guyana"^^xsd:string .
+
+dcsso:HK a dcsso:Country ;
+    foaf:name "Hong Kong"^^xsd:string .
+
+dcsso:HM a dcsso:Country ;
+    foaf:name "Heard Island and McDonald Islands"^^xsd:string .
+
+dcsso:HN a dcsso:Country ;
+    foaf:name "Honduras"^^xsd:string .
+
+dcsso:HR a dcsso:Country ;
+    foaf:name "Croatia"^^xsd:string .
+
+dcsso:HT a dcsso:Country ;
+    foaf:name "Haiti"^^xsd:string .
+
+dcsso:HU a dcsso:Country ;
+    foaf:name "Hungary"^^xsd:string .
+
+dcsso:ID a dcsso:Country ;
+    foaf:name "Indonesia"^^xsd:string .
+
+dcsso:IE a dcsso:Country ;
+    foaf:name "Ireland"^^xsd:string .
+
+dcsso:IL a dcsso:Country ;
+    foaf:name "Israel"^^xsd:string .
+
+dcsso:IM a dcsso:Country ;
+    foaf:name "Isle of Man"^^xsd:string .
+
+dcsso:IN a dcsso:Country ;
+    foaf:name "India"^^xsd:string .
+
+dcsso:IO a dcsso:Country ;
+    foaf:name "British Indian Ocean Territory"^^xsd:string .
+
+dcsso:IQ a dcsso:Country ;
+    foaf:name "Iraq"^^xsd:string .
+
+dcsso:IR a dcsso:Country ;
+    foaf:name "Iran"^^xsd:string .
+
+dcsso:IS a dcsso:Country ;
+    foaf:name "Iceland"^^xsd:string .
+
+dcsso:IT1 a dcsso:League ;
+    dcsso:hasCountry dcsso:IT ;
+    foaf:name "Serie A"^^xsd:string .
+
+dcsso:JE a dcsso:Country ;
+    foaf:name "Jersey"^^xsd:string .
+
+dcsso:JM a dcsso:Country ;
+    foaf:name "Jamaica"^^xsd:string .
+
+dcsso:JO a dcsso:Country ;
+    foaf:name "Jordan"^^xsd:string .
+
+dcsso:JP a dcsso:Country ;
+    foaf:name "Japan"^^xsd:string .
+
+dcsso:KE a dcsso:Country ;
+    foaf:name "Kenya"^^xsd:string .
+
+dcsso:KG a dcsso:Country ;
+    foaf:name "Kyrgyzstan"^^xsd:string .
+
+dcsso:KH a dcsso:Country ;
+    foaf:name "Cambodia"^^xsd:string .
+
+dcsso:KI a dcsso:Country ;
+    foaf:name "Kiribati"^^xsd:string .
+
+dcsso:KM a dcsso:Country ;
+    foaf:name "Comoros"^^xsd:string .
+
+dcsso:KN a dcsso:Country ;
+    foaf:name "Saint Kitts and Nevis"^^xsd:string .
+
+dcsso:KP a dcsso:Country ;
+    foaf:name "Korea, North"^^xsd:string .
+
+dcsso:KR a dcsso:Country ;
+    foaf:name "Korea, South"^^xsd:string .
+
+dcsso:KW a dcsso:Country ;
+    foaf:name "Kuwait"^^xsd:string .
+
+dcsso:KY a dcsso:Country ;
+    foaf:name "Cayman Islands"^^xsd:string .
+
+dcsso:KZ a dcsso:Country ;
+    foaf:name "Kazakhstan"^^xsd:string .
+
+dcsso:L1 a dcsso:League ;
+    dcsso:hasCountry dcsso:DE ;
+    foaf:name "Bundesliga"^^xsd:string .
+
+dcsso:LA a dcsso:Country ;
+    foaf:name "Laos"^^xsd:string .
+
+dcsso:LB a dcsso:Country ;
+    foaf:name "Lebanon"^^xsd:string .
+
+dcsso:LC a dcsso:Country ;
+    foaf:name "Saint Lucia"^^xsd:string .
+
+dcsso:LI a dcsso:Country ;
+    foaf:name "Liechtenstein"^^xsd:string .
+
+dcsso:LK a dcsso:Country ;
+    foaf:name "Sri Lanka"^^xsd:string .
+
+dcsso:LR a dcsso:Country ;
+    foaf:name "Liberia"^^xsd:string .
+
+dcsso:LS a dcsso:Country ;
+    foaf:name "Lesotho"^^xsd:string .
+
+dcsso:LT a dcsso:Country ;
+    foaf:name "Lithuania"^^xsd:string .
+
+dcsso:LU a dcsso:Country ;
+    foaf:name "Luxembourg"^^xsd:string .
+
+dcsso:LV a dcsso:Country ;
+    foaf:name "Latvia"^^xsd:string .
+
+dcsso:LY a dcsso:Country ;
+    foaf:name "Libya"^^xsd:string .
+
+dcsso:MA a dcsso:Country ;
+    foaf:name "Morocco"^^xsd:string .
+
+dcsso:MC a dcsso:Country ;
+    foaf:name "Monaco"^^xsd:string .
+
+dcsso:MD a dcsso:Country ;
+    foaf:name "Moldova"^^xsd:string .
+
+dcsso:ME a dcsso:Country ;
+    foaf:name "Montenegro"^^xsd:string .
+
+dcsso:MF a dcsso:Country ;
+    foaf:name "Saint Martin (French part)"^^xsd:string .
+
+dcsso:MG a dcsso:Country ;
+    foaf:name "Madagascar"^^xsd:string .
+
+dcsso:MH a dcsso:Country ;
+    foaf:name "Marshall Islands"^^xsd:string .
+
+dcsso:MK a dcsso:Country ;
+    foaf:name "North Macedonia"^^xsd:string .
+
+dcsso:ML a dcsso:Country ;
+    foaf:name "Mali"^^xsd:string .
+
+dcsso:MM a dcsso:Country ;
+    foaf:name "Myanmar"^^xsd:string .
+
+dcsso:MN a dcsso:Country ;
+    foaf:name "Mongolia"^^xsd:string .
+
+dcsso:MO a dcsso:Country ;
+    foaf:name "Macao"^^xsd:string .
+
+dcsso:MP a dcsso:Country ;
+    foaf:name "Northern Mariana Islands"^^xsd:string .
+
+dcsso:MQ a dcsso:Country ;
+    foaf:name "Martinique"^^xsd:string .
+
+dcsso:MR a dcsso:Country ;
+    foaf:name "Mauritania"^^xsd:string .
+
+dcsso:MS a dcsso:Country ;
+    foaf:name "Montserrat"^^xsd:string .
+
+dcsso:MT a dcsso:Country ;
+    foaf:name "Malta"^^xsd:string .
+
+dcsso:MU a dcsso:Country ;
+    foaf:name "Mauritius"^^xsd:string .
+
+dcsso:MV a dcsso:Country ;
+    foaf:name "Maldives"^^xsd:string .
+
+dcsso:MW a dcsso:Country ;
+    foaf:name "Malawi"^^xsd:string .
+
+dcsso:MX a dcsso:Country ;
+    foaf:name "Mexico"^^xsd:string .
+
+dcsso:MY a dcsso:Country ;
+    foaf:name "Malaysia"^^xsd:string .
+
+dcsso:MZ a dcsso:Country ;
+    foaf:name "Mozambique"^^xsd:string .
+
+dcsso:NA a dcsso:Country ;
+    foaf:name "Namibia"^^xsd:string .
+
+dcsso:NC a dcsso:Country ;
+    foaf:name "New Caledonia"^^xsd:string .
+
+dcsso:NE a dcsso:Country ;
+    foaf:name "Niger"^^xsd:string .
+
+dcsso:NF a dcsso:Country ;
+    foaf:name "Norfolk Island"^^xsd:string .
+
+dcsso:NG a dcsso:Country ;
+    foaf:name "Nigeria"^^xsd:string .
+
+dcsso:NI a dcsso:Country ;
+    foaf:name "Nicaragua"^^xsd:string .
+
+dcsso:NL a dcsso:Country ;
+    foaf:name "Netherlands"^^xsd:string .
+
+dcsso:NO a dcsso:Country ;
+    foaf:name "Norway"^^xsd:string .
+
+dcsso:NP a dcsso:Country ;
+    foaf:name "Nepal"^^xsd:string .
+
+dcsso:NR a dcsso:Country ;
+    foaf:name "Nauru"^^xsd:string .
+
+dcsso:NU a dcsso:Country ;
+    foaf:name "Niue"^^xsd:string .
+
+dcsso:NZ a dcsso:Country ;
+    foaf:name "New Zealand"^^xsd:string .
+
+dcsso:OM a dcsso:Country ;
+    foaf:name "Oman"^^xsd:string .
+
+dcsso:PA a dcsso:Country ;
+    foaf:name "Panama"^^xsd:string .
+
+dcsso:PE a dcsso:Country ;
+    foaf:name "Peru"^^xsd:string .
+
+dcsso:PF a dcsso:Country ;
+    foaf:name "French Polynesia"^^xsd:string .
+
+dcsso:PG a dcsso:Country ;
+    foaf:name "Papua New Guinea"^^xsd:string .
+
+dcsso:PH a dcsso:Country ;
+    foaf:name "Philippines"^^xsd:string .
+
+dcsso:PK a dcsso:Country ;
+    foaf:name "Pakistan"^^xsd:string .
+
+dcsso:PL a dcsso:Country ;
+    foaf:name "Poland"^^xsd:string .
+
+dcsso:PM a dcsso:Country ;
+    foaf:name "Saint Pierre and Miquelon"^^xsd:string .
+
+dcsso:PN a dcsso:Country ;
+    foaf:name "Pitcairn"^^xsd:string .
+
+dcsso:PR a dcsso:Country ;
+    foaf:name "Puerto Rico"^^xsd:string .
+
+dcsso:PS a dcsso:Country ;
+    foaf:name "Palestinian Territory, Occupied"^^xsd:string .
+
+dcsso:PT a dcsso:Country ;
+    foaf:name "Portugal"^^xsd:string .
+
+dcsso:PW a dcsso:Country ;
+    foaf:name "Palau"^^xsd:string .
+
+dcsso:PY a dcsso:Country ;
+    foaf:name "Paraguay"^^xsd:string .
+
+dcsso:QA a dcsso:Country ;
+    foaf:name "Qatar"^^xsd:string .
+
+dcsso:RE a dcsso:Country ;
+    foaf:name "Reunion"^^xsd:string .
+
+dcsso:RO a dcsso:Country ;
+    foaf:name "Romania"^^xsd:string .
+
+dcsso:RS a dcsso:Country ;
+    foaf:name "Serbia"^^xsd:string .
+
+dcsso:RU a dcsso:Country ;
+    foaf:name "Russia"^^xsd:string .
+
+dcsso:RW a dcsso:Country ;
+    foaf:name "Rwanda"^^xsd:string .
+
+dcsso:SA a dcsso:Country ;
+    foaf:name "Saudi Arabia"^^xsd:string .
+
+dcsso:SB a dcsso:Country ;
+    foaf:name "Solomon Islands"^^xsd:string .
+
+dcsso:SC a dcsso:Country ;
+    foaf:name "Seychelles"^^xsd:string .
+
+dcsso:SD a dcsso:Country ;
+    foaf:name "Sudan"^^xsd:string .
+
+dcsso:SE a dcsso:Country ;
+    foaf:name "Sweden"^^xsd:string .
+
+dcsso:SG a dcsso:Country ;
+    foaf:name "Singapore"^^xsd:string .
+
+dcsso:SH a dcsso:Country ;
+    foaf:name "Saint Helena, Ascension and Tristan da Cunha"^^xsd:string .
+
+dcsso:SI a dcsso:Country ;
+    foaf:name "Slovenia"^^xsd:string .
+
+dcsso:SJ a dcsso:Country ;
+    foaf:name "Svalbard and Jan Mayen"^^xsd:string .
+
+dcsso:SK a dcsso:Country ;
+    foaf:name "Slovakia"^^xsd:string .
+
+dcsso:SL a dcsso:Country ;
+    foaf:name "Sierra Leone"^^xsd:string .
+
+dcsso:SM a dcsso:Country ;
+    foaf:name "San Marino"^^xsd:string .
+
+dcsso:SN a dcsso:Country ;
+    foaf:name "Senegal"^^xsd:string .
+
+dcsso:SO a dcsso:Country ;
+    foaf:name "Somalia"^^xsd:string .
+
+dcsso:SR a dcsso:Country ;
+    foaf:name "Suriname"^^xsd:string .
+
+dcsso:ST a dcsso:Country ;
+    foaf:name "Sao Tome and Principe"^^xsd:string .
+
+dcsso:SV a dcsso:Country ;
+    foaf:name "El Salvador"^^xsd:string .
+
+dcsso:SY a dcsso:Country ;
+    foaf:name "Syrian Arab Republic"^^xsd:string .
+
+dcsso:SZ a dcsso:Country ;
+    foaf:name "Swaziland"^^xsd:string .
+
+dcsso:TC a dcsso:Country ;
+    foaf:name "Turks and Caicos Islands"^^xsd:string .
+
+dcsso:TD a dcsso:Country ;
+    foaf:name "Chad"^^xsd:string .
+
+dcsso:TF a dcsso:Country ;
+    foaf:name "French Southern Territories"^^xsd:string .
+
+dcsso:TG a dcsso:Country ;
+    foaf:name "Togo"^^xsd:string .
+
+dcsso:TH a dcsso:Country ;
+    foaf:name "Thailand"^^xsd:string .
+
+dcsso:TJ a dcsso:Country ;
+    foaf:name "Tajikistan"^^xsd:string .
+
+dcsso:TK a dcsso:Country ;
+    foaf:name "Tokelau"^^xsd:string .
+
+dcsso:TL a dcsso:Country ;
+    foaf:name "Timor-Leste"^^xsd:string .
+
+dcsso:TM a dcsso:Country ;
+    foaf:name "Turkmenistan"^^xsd:string .
+
+dcsso:TN a dcsso:Country ;
+    foaf:name "Tunisia"^^xsd:string .
+
+dcsso:TO a dcsso:Country ;
+    foaf:name "Tonga"^^xsd:string .
+
+dcsso:TR a dcsso:Country ;
+    foaf:name "Turkey"^^xsd:string .
+
+dcsso:TT a dcsso:Country ;
+    foaf:name "Trinidad and Tobago"^^xsd:string .
+
+dcsso:TV a dcsso:Country ;
+    foaf:name "Tuvalu"^^xsd:string .
+
+dcsso:TW a dcsso:Country ;
+    foaf:name "Taiwan, Province of China"^^xsd:string .
+
+dcsso:TZ a dcsso:Country ;
+    foaf:name "Tanzania"^^xsd:string .
+
+dcsso:UA a dcsso:Country ;
+    foaf:name "Ukraine"^^xsd:string .
+
+dcsso:UG a dcsso:Country ;
+    foaf:name "Uganda"^^xsd:string .
+
+dcsso:UM a dcsso:Country ;
+    foaf:name "United States Minor Outlying Islands"^^xsd:string .
+
+dcsso:US a dcsso:Country ;
+    foaf:name "United States"^^xsd:string .
+
+dcsso:UY a dcsso:Country ;
+    foaf:name "Uruguay"^^xsd:string .
+
+dcsso:UZ a dcsso:Country ;
+    foaf:name "Uzbekistan"^^xsd:string .
+
+dcsso:VA a dcsso:Country ;
+    foaf:name "Holy See (Vatican City State)"^^xsd:string .
+
+dcsso:VC a dcsso:Country ;
+    foaf:name "Saint Vincent and the Grenadines"^^xsd:string .
+
+dcsso:VE a dcsso:Country ;
+    foaf:name "Venezuela"^^xsd:string .
+
+dcsso:VG a dcsso:Country ;
+    foaf:name "Virgin Islands, British"^^xsd:string .
+
+dcsso:VI a dcsso:Country ;
+    foaf:name "Virgin Islands, U.S."^^xsd:string .
+
+dcsso:VN a dcsso:Country ;
+    foaf:name "Viet Nam"^^xsd:string .
+
+dcsso:VU a dcsso:Country ;
+    foaf:name "Vanuatu"^^xsd:string .
+
+dcsso:WF a dcsso:Country ;
+    foaf:name "Wallis and Futuna"^^xsd:string .
+
+dcsso:WS a dcsso:Country ;
+    foaf:name "Samoa"^^xsd:string .
+
+dcsso:XK a dcsso:Country ;
+    foaf:name "Kosovo"^^xsd:string .
+
+dcsso:YE a dcsso:Country ;
+    foaf:name "Yemen"^^xsd:string .
+
+dcsso:YT a dcsso:Country ;
+    foaf:name "Mayotte"^^xsd:string .
+
+dcsso:ZA a dcsso:Country ;
+    foaf:name "South Africa"^^xsd:string .
+
+dcsso:ZM a dcsso:Country ;
+    foaf:name "Zambia"^^xsd:string .
+
+dcsso:ZW a dcsso:Country ;
+    foaf:name "Zimbabwe"^^xsd:string .
+
+dcsso:DE a dcsso:Country ;
+    foaf:name "Germany"^^xsd:string .
+
+dcsso:ES a dcsso:Country ;
+    foaf:name "Spain"^^xsd:string .
+
+dcsso:FR a dcsso:Country ;
+    foaf:name "France"^^xsd:string .
+
+dcsso:GB a dcsso:Country ;
+    foaf:name "United Kingdom"^^xsd:string .
+
+dcsso:IT a dcsso:Country ;
+    foaf:name "Italy"^^xsd:string .
+

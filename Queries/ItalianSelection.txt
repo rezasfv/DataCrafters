@@ -1,0 +1,29 @@
+#The coach of the Italian national team wants to select the best offensive players in terms of overall contribution to the attacking phase.
+
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?playerName ?position ?subPosition WHERE { 
+    ?player a dcsso:Footballer;
+              foaf:name ?playerName;
+              dcsso:hasMembership ?memb;
+              dcsso:position ?position;
+              dcsso:subPosition ?subPosition;
+              dcsso:hasCitizenship dcsso:IT.
+    ?memb dcsso:season "2019"^^xsd:int;
+          dcsso:games ?games;
+          dcsso:minutes ?minutes;
+          dcsso:xGChain ?xGChain.
+	{
+        ?player dcsso:subPosition dcsso:AttackingMidfielder.
+    }
+    UNION{
+        ?player dcsso:subPosition dcsso:RightWinger.
+    }
+    UNION{
+        ?player dcsso:subPosition dcsso:LeftWinger.
+    }
+    FILTER(?games >= 20)
+} 
+ORDER BY DESC(?xGChain/?minutes)
+LIMIT 10

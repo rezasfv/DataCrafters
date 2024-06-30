@@ -1,0 +1,33 @@
+#Statistics through the seasons for the best overall scorer of AC Milan
+
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+select ?playerName ?season (GROUP_CONCAT(?teamName; separator=", ") as ?teamNames) ?games ?goals ?xG ((?goals > ?xG) as ?overPerforming) where { 
+	?player foaf:name ?playerName;
+       dcsso:hasMembership ?memb.
+    ?memb dcsso:season ?season;
+       dcsso:forTeam/foaf:name ?teamName;
+       dcsso:games ?games;
+       dcsso:xG ?xG;
+       dcsso:goals ?goals.
+    FILTER(!EXISTS{
+         ?memb a dcsso:SeasonalMembership.
+         ?player dcsso:hasMembership ?memb2.
+         ?memb2 a dcsso:SeasonalAggrMembership;
+               dcsso:season ?season.
+    })
+    {
+        SELECT ?playerName (SUM(?goals2) as ?totalGoals) WHERE{
+            ?player2 a dcsso:Footballer;
+                    foaf:name ?playerName;
+                    dcsso:hasMembership ?memb3.
+            ?memb3 a dcsso:SeasonalMembership;
+                  dcsso:forTeam/foaf:name "AC Milan";
+                  dcsso:goals ?goals2.
+        }GROUP BY ?player2 ?playerName
+        ORDER BY DESC (?totalGoals)
+        LIMIT 1
+    }
+} 
+GROUP BY ?season ?goals ?games ?playerName ?xG
+ORDER BY ASC(?playerName) DESC(?totalGoals) ASC(?season)

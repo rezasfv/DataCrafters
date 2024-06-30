@@ -1,0 +1,45 @@
+#List of the most correct defenders (minimum number of yellow and red cards averaged in 90 minutes) with a minimum of 3000 minutes played across the seasons
+
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?playerName (GROUP_CONCAT(DISTINCT ?tn; separator=", ") as ?teamNames) ?incorrectness ?totMinutes WHERE 
+{ 
+	?p foaf:name ?playerName;
+		dcsso:hasMembership ?m;
+		dcsso:position ?position.
+    
+	?m dcsso:forTeam/foaf:name ?tn.
+    
+	BIND (((?totYellowCards+(?totRedCards*3))/?totMinutes)*90 AS ?incorrectness)
+    
+	FILTER (?totMinutes >= "3000"^^xsd:int)
+	FILTER (?position = dcsso:Defender)
+                    
+	{
+		SELECT ?playerName (SUM(?yellowCards) AS ?totYellowCards) (SUM(?redCards) AS ?totRedCards) 	(SUM(?minutes) AS ?totMinutes) where 
+		{
+			?p foaf:name ?playerName;
+				dcsso:hasMembership ?m.
+    
+			?m dcsso:yellowCards ?yellowCards;
+				dcsso:redCards ?redCards;
+				dcsso:minutes ?minutes;
+				dcsso:games ?games.
+    
+			FILTER(!EXISTS
+			{
+				?m a dcsso:SeasonalMembership.
+				
+				?p dcsso:hasMembership ?m2.
+				
+				?m2 a dcsso:SeasonalAggrMembership.
+			})
+		}
+		GROUP BY (?playerName)
+	}    
+} 
+GROUP BY (?playerName) (?incorrectness) (?totMinutes)
+ORDER BY ASC (?incorrectness)
+LIMIT 50

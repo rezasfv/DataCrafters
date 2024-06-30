@@ -1,0 +1,8 @@
+#List of subpositions, related to positions with SKOS.
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+select ?subPosition ?position where { 
+	?subPosition skos:broaderTransitive ?position.
+    ?position a dcsso:Position.
+}

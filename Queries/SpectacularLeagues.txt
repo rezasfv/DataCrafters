@@ -1,0 +1,14 @@
+#Leagues ordered by "spectacularity" (avg goals per game)
+
+PREFIX dcsso: <http://www.dei.unipd.it/db2/dcsso#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?leagueName (AVG(?goalsPerGame) AS ?avgGoalsPerGame) WHERE{
+    ?league a dcsso:League;
+            foaf:name ?leagueName.
+    ?team dcsso:participatesIn ?league;
+          dcsso:hasParticipation ?part.
+    ?part dcsso:goals ?goals;
+    	  dcsso:games ?games.
+    BIND(?goals/?games AS ?goalsPerGame).
+}GROUP BY ?leagueName
+ORDER BY DESC(?avgGoalsPerGame)

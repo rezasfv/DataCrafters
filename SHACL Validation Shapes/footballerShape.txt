@@ -1,0 +1,56 @@
+#Shape for verifying the correct format of all the data propreties that belongs to a footballer
+
+prefix ex: <http://example.com/ns#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix sh: <http://www.w3.org/ns/shacl#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix dcsso: <http://www.dei.unipd.it/db2/dcsso#> 
+prefix owl: <http://www.w3.org/2002/07/owl#>
+
+ex:footballerShape
+	a sh:NodeShape ;
+	sh:closed true ;
+	sh:targetClass dcsso:Footballer ;
+	sh:property [
+		sh:path dcsso:birthdate ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:int ;
+	] ;
+	sh:property [
+		sh:path dcsso:height ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:double ;
+	] ;
+	sh:property [
+		sh:path foaf:familyName ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+        sh:minLength 1 ;
+	] ;
+	sh:property [
+		sh:path foaf:firstName ;
+		sh:datatype xsd:string ;
+		sh:maxCount 1 ;
+        sh:minLength 1 ;
+	] ;
+	sh:property [
+		sh:path foaf:firstName ;
+		sh:datatype xsd:string ;
+		sh:pattern "^[A-Z]" ;
+        sh:message "Name should start with an uppercase letter." ;
+	] ;
+	sh:property [
+		sh:path foaf:name ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+        sh:minLength 1 ;
+	] ;
+	sh:property [
+		sh:path foaf:name ;
+		sh:datatype xsd:string ;
+		sh:pattern "^[A-Z]" ;
+        sh:message "Name should start with an uppercase letter.";
+	].
